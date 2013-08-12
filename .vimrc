@@ -16,8 +16,11 @@ filetype indent on
 "pathogen init
 execute pathogen#infect()
 
-"NERDTree settings
+"Keybindings
+""for NERDTree
 map <F1> :NERDTreeToggle<CR>
+""for tagbar
+map <F8> :TagbarToggle<CR>
 
 "Alternate keybindings
 map <C-n> :bn<CR>
