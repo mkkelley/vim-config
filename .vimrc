@@ -25,5 +25,6 @@ map <F8> :TagbarToggle<CR>
 "Alternate keybindings
 map <C-n> :bn<CR>
 map <C-p> :bp<CR>
+map <C-v> :bd<CR>
 ""for easymotion
 let g:EasyMotion_leader_key = '<Leader>'
