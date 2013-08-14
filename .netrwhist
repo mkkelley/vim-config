@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/michael/.vim'
-let g:netrw_dirhist_2='/etc/ppp/peers'
-let g:netrw_dirhist_3='/home/michael/.vim/syntax'
-let g:netrw_dirhist_4='/home/michael/programming/go/src/miniblog/.git/hooks'
-let g:netrw_dirhist_5='/home/michael/.vim/autoload'
-let g:netrw_dirhist_6='/home/michael/.vim/after'
