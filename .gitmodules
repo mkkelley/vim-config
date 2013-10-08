@@ -7,3 +7,9 @@
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = git@github.com:bling/vim-airline.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = git@github.com:scrooloose/nerdtree.git
+[submodule "bundle/easymotion"]
+	path = bundle/easymotion
+	url = git@github.com:Lokaltog/vim-easymotion.git
