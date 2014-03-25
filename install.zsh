@@ -3,5 +3,5 @@
 if [[ -a "$HOME/.vimrc" ]]; then
     mv "$HOME/.vimrc" "$HOME/.vimrc.old"
 fi
-cp "./.vimrc" "$HOME/.vimrc"
-git submodule init --update
+ln "./.vimrc" "$HOME/.vimrc"
+GIT_DIR="$HOME/.vimrc/.git" git submodule init --update
