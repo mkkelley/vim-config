@@ -9,6 +9,7 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 set hidden
+set mouse=a
 
 filetype on
 filetype plugin on
@@ -27,7 +28,7 @@ map <F8> :TagbarToggle<CR>
 "Alternate keybindings
 map <C-n> :bn<CR>
 map <C-p> :bp<CR>
-map <C-v> :bd<CR>
+"map <C-v> :bd<CR>
 ""for easymotion
 let g:EasyMotion_leader_key = '<Leader>'
 
@@ -36,3 +37,18 @@ let g:EasyMotion_leader_key = '<Leader>'
 ""for vim-airline
 let g:airline_powerline_fonts = 1
 set laststatus=2
+
+let g:syntastic_cpp_compiler = 'clang++'
+let g:syntastic_cpp_compiler_options = ' -std=c++11 '
+
+map  / <Plug>(easymotion-sn)
+omap / <Plug>(easymotion-tn)
+
+" These `n` & `N` mappings are options. You do not have to map `n` & `N` to
+" EasyMotion.
+" Without these mappings, `n` & `N` works fine. (These mappings just provide
+" different highlight method and have some other features )
+map  n <Plug>(easymotion-next)
+map  N <Plug>(easymotion-prev)
+
+let g:ctrlp_extensions = ['tag', 'buffertag', 'mixed']
